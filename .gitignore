@@ -1,0 +1,14 @@
+# Dependencies & system files
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Exclude loose resume drafts in root (website serves assets/Akash_Jadhav_Resume.pdf)
+*.docx
+*.pdf
+!assets/*.pdf
+
+# IDE & temporary files
+.vscode/
+.idea/
+*.log
